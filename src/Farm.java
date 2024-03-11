@@ -48,4 +48,5 @@ public class Farm {
         animals.remove(a);
         System.out.println("prodali jste :" + a);
     }
+
 }
