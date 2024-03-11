@@ -14,6 +14,7 @@ public abstract class Flower {
 
     public void zavlazeni(){
         chanceOfGrowth = chanceOfGrowth + 20;
+
     }
 
     @Override
