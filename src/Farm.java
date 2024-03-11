@@ -33,4 +33,7 @@ public class Farm {
             System.out.println("You can plant just 5 types of flowers");
         }
     }
+    public void sklidit(Flower f){
+        flowers.remove(f);
+    }
 }
