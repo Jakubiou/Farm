@@ -12,6 +12,7 @@ public abstract class Animal {
         this.specialCare = specialCare;
     }
 
+
     @Override
     public String toString() {
         return "Animal{" +
