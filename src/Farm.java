@@ -43,4 +43,9 @@ public class Farm {
         comfort++;
         System.out.println("Vase zvire bylo pohlazeno: " + comfort);
     }
+
+    public void prodat(Animal a){
+        animals.remove(a);
+        System.out.println("prodali jste :" + a);
+    }
 }
