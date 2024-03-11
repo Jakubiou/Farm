@@ -38,7 +38,9 @@ public class Farm {
     public void sklidit(Flower f){
         flowers.remove(f);
     }
-    public void pohladit(){
-        System.out.println("pohladil jste ");
+    public void pohladit(Animal a){
+        System.out.println("pohladil jste: " + a);
+        comfort++;
+        System.out.println("Vase zvire bylo pohlazeno: " + comfort);
     }
 }

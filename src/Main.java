@@ -10,6 +10,7 @@ public class Main {
         f.addFlower(r);
         f.addFlower(c);
         f.sklidit(r);
+        f.pohladit(s);
         f.AllFlowers();
         f.addAnimal(s);
         f.AllAnimals();
