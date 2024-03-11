@@ -2,8 +2,10 @@ import java.util.ArrayList;
 
 public class Farm {
 
-    int i = 0;
-    int x = 0;
+    public int i = 0;
+    public int x = 0;
+
+    public int comfort;
 
     ArrayList<Animal>animals = new ArrayList<>();
     ArrayList<Flower>flowers = new ArrayList<>();
@@ -35,5 +37,8 @@ public class Farm {
     }
     public void sklidit(Flower f){
         flowers.remove(f);
+    }
+    public void pohladit(){
+        System.out.println("pohladil jste ");
     }
 }
